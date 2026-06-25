@@ -1,0 +1,45 @@
+# Jupyter
+
+jupyter
+jupyterlab
+ipykernel
+
+# Data Analysis
+
+pandas>=2.2
+numpy>=1.26
+
+# Visualization
+
+matplotlib>=3.8
+seaborn>=0.13
+
+# Machine Learning
+
+scikit-learn>=1.5
+
+# BigQuery
+
+google-cloud-bigquery>=3.25
+google-cloud-storage>=2.18
+pandas-gbq>=0.23
+pyarrow>=17.0
+
+# Utilities
+
+tqdm>=4.66
+python-dotenv>=1.0
+
+# Notebook Display
+
+tabulate>=0.9
+
+# Optional (EDA support)
+
+scipy>=1.13
+statsmodels>=0.14
+
+# 追加
+
+xgboost
+shap
