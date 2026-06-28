@@ -1,0 +1,201 @@
+[0m17:17:59.075126 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eca6a8b0440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eca6a840110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eca6ad89c40>]}
+
+
+============================== 17:17:59.079770 | 60c477f5-5211-45d7-b55c-f3d3946c672b ==============================
+[0m17:17:59.079770 [info ] [MainThread]: Running with dbt=1.11.11
+[0m17:17:59.080531 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'use_experimental_parser': 'False', 'log_format': 'default', 'use_colors': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'partial_parse': 'True', 'log_cache_events': 'False', 'version_check': 'True', 'static_parser': 'True', 'no_print': 'None', 'quiet': 'False', 'write_json': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt init olist_dbt', 'empty': 'None', 'introspect': 'True', 'indirect_selection': 'eager', 'printer_width': '80', 'profiles_dir': '/home/kotaro/.dbt', 'target_path': 'None'}
+[0m17:17:59.090225 [info ] [MainThread]: Creating dbt configuration folder at /home/kotaro/.dbt
+[0m17:17:59.092506 [debug] [MainThread]: Starter project path: /home/kotaro/seikabutu/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m17:17:59.100257 [info ] [MainThread]: 
+Your new dbt project "olist_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:17:59.100848 [info ] [MainThread]: Setting up your profile.
+[0m17:44:02.064206 [info ] [MainThread]: Profile olist_dbt written to /home/kotaro/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:44:02.203969 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 1594.8593, "process_in_blocks": "1888", "process_kernel_time": 0.427796, "process_mem_max_rss": "252040", "process_out_blocks": "80", "process_user_time": 5.07469}
+[0m17:44:02.295705 [debug] [MainThread]: Command `dbt init` succeeded at 17:44:02.291497 after 1594.96 seconds
+[0m17:44:02.314429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eca6a138d70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eca6a772d80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eca6a771730>]}
+[0m17:44:02.330862 [debug] [MainThread]: Flushing usage events
+[0m17:44:04.293382 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:46:51.690881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c904fb1f620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c904d9ef560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c904f535190>]}
+
+
+============================== 17:46:51.698520 | 9a40d465-bbb3-4e65-a8f7-d4ea818917f0 ==============================
+[0m17:46:51.698520 [info ] [MainThread]: Running with dbt=1.11.11
+[0m17:46:51.699174 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'write_json': 'True', 'quiet': 'False', 'target_path': 'None', 'use_experimental_parser': 'False', 'introspect': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'empty': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/home/kotaro/.dbt', 'warn_error': 'None', 'debug': 'False', 'no_print': 'None', 'partial_parse': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_cache_events': 'False', 'printer_width': '80'}
+[0m17:46:51.729715 [info ] [MainThread]: dbt version: 1.11.11
+[0m17:46:51.730304 [info ] [MainThread]: python version: 3.12.3
+[0m17:46:51.730823 [info ] [MainThread]: python path: /home/kotaro/seikabutu/.venv/bin/python3
+[0m17:46:51.731263 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m17:46:54.656276 [info ] [MainThread]: Using profiles dir at /home/kotaro/.dbt
+[0m17:46:54.657014 [info ] [MainThread]: Using profiles.yml file at /home/kotaro/.dbt/profiles.yml
+[0m17:46:54.657617 [info ] [MainThread]: Using dbt_project.yml file at /home/kotaro/seikabutu/dbt_project.yml
+[0m17:46:54.658078 [info ] [MainThread]: adapter type: bigquery
+[0m17:46:54.658478 [info ] [MainThread]: adapter version: 1.11.3
+[0m17:46:54.659047 [info ] [MainThread]: Configuration:
+[0m17:46:54.659597 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:46:54.660038 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:46:54.660546 [info ] [MainThread]: Required dependencies:
+[0m17:46:54.661225 [debug] [MainThread]: Executing "git --help"
+[0m17:46:54.665409 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:46:54.666074 [debug] [MainThread]: STDERR: "b''"
+[0m17:46:54.666639 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:46:54.667502 [info ] [MainThread]: Connection:
+[0m17:46:54.668231 [info ] [MainThread]:   method: service-account
+[0m17:46:54.668925 [info ] [MainThread]:   database: seikabutu-497407
+[0m17:46:54.669660 [info ] [MainThread]:   execution_project: seikabutu-497407
+[0m17:46:54.670271 [info ] [MainThread]:   schema: dbt
+[0m17:46:54.670944 [info ] [MainThread]:   location: asia-northeast1
+[0m17:46:54.671605 [info ] [MainThread]:   priority: interactive
+[0m17:46:54.672332 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m17:46:54.673035 [info ] [MainThread]:   impersonate_service_account: None
+[0m17:46:54.673783 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m17:46:54.674696 [info ] [MainThread]:   job_retries: 1
+[0m17:46:54.675703 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m17:46:54.676668 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m17:46:54.677634 [info ] [MainThread]:   timeout_seconds: 300
+[0m17:46:54.678522 [info ] [MainThread]:   client_id: None
+[0m17:46:54.679706 [info ] [MainThread]:   token_uri: None
+[0m17:46:54.680850 [info ] [MainThread]:   compute_region: None
+[0m17:46:54.682399 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m17:46:54.683526 [info ] [MainThread]:   gcs_bucket: None
+[0m17:46:54.684537 [info ] [MainThread]:   dataproc_batch: None
+[0m17:46:54.685623 [info ] [MainThread]: Registered adapter: bigquery=1.11.3
+[0m17:46:54.836000 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m17:46:54.836565 [debug] [MainThread]: On debug: select 1 as id
+[0m17:46:54.837151 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:46:55.588610 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=seikabutu-497407&j=bq:asia-northeast1:1ac0f135-44b9-4996-bfa0-b7f6b17f98d6&page=queryresults
+[0m17:46:55.596268 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:46:55.599177 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:46:55.601051 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/kotaro/seikabutu/dbt_project.yml> not found
+
+[0m17:46:55.603495 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Access Denied: Project seikabutu-497407: User does not have bigquery.jobs.create permission in project seikabutu-497407.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:46:55.606538 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 3.9872978, "process_in_blocks": "120296", "process_kernel_time": 0.919621, "process_mem_max_rss": "258556", "process_out_blocks": "32", "process_user_time": 5.822945}
+[0m17:46:55.609310 [debug] [MainThread]: Command `dbt debug` failed at 17:46:55.608702 after 3.99 seconds
+[0m17:46:55.610911 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:46:55.612503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c904f466840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c9026e42b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c904cd6f1a0>]}
+[0m17:46:55.613837 [debug] [MainThread]: Flushing usage events
+[0m17:46:56.645866 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:48:05.724869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a60545817f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a60546d7f20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6054b16ba0>]}
+
+
+============================== 17:48:05.729706 | 46f91a6b-bbb7-4347-944d-5dfe9afc33e4 ==============================
+[0m17:48:05.729706 [info ] [MainThread]: Running with dbt=1.11.11
+[0m17:48:05.730528 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init olist_dbt', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'introspect': 'True', 'profiles_dir': '/home/kotaro/.dbt', 'static_parser': 'True', 'fail_fast': 'False', 'debug': 'False', 'warn_error': 'None', 'log_format': 'default', 'write_json': 'True', 'log_path': 'logs', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'target_path': 'None', 'quiet': 'False', 'version_check': 'True', 'no_print': 'None', 'printer_width': '80', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True'}
+[0m17:48:05.747249 [info ] [MainThread]: A project called olist_dbt already exists here.
+[0m17:48:05.749885 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.11761952, "process_in_blocks": "40", "process_kernel_time": 0.319296, "process_mem_max_rss": "120108", "process_out_blocks": "16", "process_user_time": 3.149605}
+[0m17:48:05.750746 [debug] [MainThread]: Command `dbt init` succeeded at 17:48:05.750585 after 0.12 seconds
+[0m17:48:05.751399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6054cbb800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6054b16ba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6054b149b0>]}
+[0m17:48:05.751960 [debug] [MainThread]: Flushing usage events
+[0m17:48:07.006469 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:51:37.193112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf29058c80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf28f57830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf2965e870>]}
+
+
+============================== 17:51:37.196650 | a536561b-bda5-4020-857b-6a0728e404ce ==============================
+[0m17:51:37.196650 [info ] [MainThread]: Running with dbt=1.11.11
+[0m17:51:37.197387 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'debug': 'False', 'empty': 'None', 'version_check': 'True', 'partial_parse': 'True', 'write_json': 'True', 'printer_width': '80', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_path': 'logs', 'log_format': 'default', 'warn_error': 'None', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'profiles_dir': '/home/kotaro/.dbt', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'target_path': 'None'}
+[0m17:51:37.210390 [info ] [MainThread]: dbt version: 1.11.11
+[0m17:51:37.211083 [info ] [MainThread]: python version: 3.12.3
+[0m17:51:37.211583 [info ] [MainThread]: python path: /home/kotaro/seikabutu/.venv/bin/python3
+[0m17:51:37.212188 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m17:51:38.632138 [info ] [MainThread]: Using profiles dir at /home/kotaro/.dbt
+[0m17:51:38.632828 [info ] [MainThread]: Using profiles.yml file at /home/kotaro/.dbt/profiles.yml
+[0m17:51:38.633330 [info ] [MainThread]: Using dbt_project.yml file at /home/kotaro/seikabutu/dbt_project.yml
+[0m17:51:38.633728 [info ] [MainThread]: adapter type: bigquery
+[0m17:51:38.634141 [info ] [MainThread]: adapter version: 1.11.3
+[0m17:51:38.634544 [info ] [MainThread]: Configuration:
+[0m17:51:38.635188 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:51:38.635619 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:51:38.636101 [info ] [MainThread]: Required dependencies:
+[0m17:51:38.636646 [debug] [MainThread]: Executing "git --help"
+[0m17:51:38.640182 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:51:38.641588 [debug] [MainThread]: STDERR: "b''"
+[0m17:51:38.642184 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:51:38.642787 [info ] [MainThread]: Connection:
+[0m17:51:38.643358 [info ] [MainThread]:   method: service-account
+[0m17:51:38.644029 [info ] [MainThread]:   database: seikabutu-497407
+[0m17:51:38.644873 [info ] [MainThread]:   execution_project: seikabutu-497407
+[0m17:51:38.645634 [info ] [MainThread]:   schema: dbt
+[0m17:51:38.646380 [info ] [MainThread]:   location: asia-northeast1
+[0m17:51:38.647021 [info ] [MainThread]:   priority: interactive
+[0m17:51:38.647612 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m17:51:38.648214 [info ] [MainThread]:   impersonate_service_account: None
+[0m17:51:38.648676 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m17:51:38.649108 [info ] [MainThread]:   job_retries: 1
+[0m17:51:38.649899 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m17:51:38.651191 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m17:51:38.652123 [info ] [MainThread]:   timeout_seconds: 300
+[0m17:51:38.653053 [info ] [MainThread]:   client_id: None
+[0m17:51:38.654010 [info ] [MainThread]:   token_uri: None
+[0m17:51:38.654459 [info ] [MainThread]:   compute_region: None
+[0m17:51:38.655039 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m17:51:38.655744 [info ] [MainThread]:   gcs_bucket: None
+[0m17:51:38.656395 [info ] [MainThread]:   dataproc_batch: None
+[0m17:51:38.657355 [info ] [MainThread]: Registered adapter: bigquery=1.11.3
+[0m17:51:38.809603 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m17:51:38.810205 [debug] [MainThread]: On debug: select 1 as id
+[0m17:51:38.810697 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:51:39.558074 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=seikabutu-497407&j=bq:asia-northeast1:ced8c500-3f38-45d6-8e87-90fbc5d50236&page=queryresults
+[0m17:51:39.564594 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:51:39.567202 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:51:39.569004 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/kotaro/seikabutu/dbt_project.yml> not found
+
+[0m17:51:39.570821 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Access Denied: Project seikabutu-497407: User does not have bigquery.jobs.create permission in project seikabutu-497407.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:51:39.572899 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 2.4435396, "process_in_blocks": "0", "process_kernel_time": 0.580752, "process_mem_max_rss": "258852", "process_out_blocks": "24", "process_user_time": 5.046266}
+[0m17:51:39.574909 [debug] [MainThread]: Command `dbt debug` failed at 17:51:39.574391 after 2.45 seconds
+[0m17:51:39.576689 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:51:39.578430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf297c6d80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf28c43a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf02e45730>]}
+[0m17:51:39.580085 [debug] [MainThread]: Flushing usage events
+[0m17:51:40.746320 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:15:24.996729 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7533fe6d2f30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7533fdab1eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7533fe266e10>]}
+
+
+============================== 17:15:25.004122 | e602eeb4-b872-42e2-ae2b-825aff4d50c2 ==============================
+[0m17:15:25.004122 [info ] [MainThread]: Running with dbt=1.11.11
+[0m17:15:25.005407 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'use_colors': 'True', 'target_path': 'None', 'indirect_selection': 'eager', 'static_parser': 'True', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'invocation_command': 'dbt parse', 'empty': 'None', 'log_format': 'default', 'printer_width': '80', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'fail_fast': 'False', 'profiles_dir': '/home/kotaro/.dbt', 'log_path': 'logs', 'cache_selected_only': 'False', 'no_print': 'None', 'debug': 'False', 'introspect': 'True', 'quiet': 'False', 'log_cache_events': 'False'}
+[0m17:15:25.006173 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/kotaro/seikabutu/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:15:25.007776 [debug] [MainThread]: Resource report: {"command_name": "parse", "command_success": false, "command_wall_clock_time": 0.07839597, "process_in_blocks": "53824", "process_kernel_time": 0.366816, "process_mem_max_rss": "119368", "process_out_blocks": "8", "process_user_time": 3.590721}
+[0m17:15:25.008450 [debug] [MainThread]: Command `dbt parse` failed at 17:15:25.008299 after 0.08 seconds
+[0m17:15:25.009017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7534007e8cb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7533fde24f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7533fdb4e5d0>]}
+[0m17:15:25.009578 [debug] [MainThread]: Flushing usage events
+[0m17:15:25.945415 [debug] [MainThread]: An error was encountered while trying to flush usage events
