@@ -1,4 +1,7 @@
-
+# dbt
 target/
 dbt_packages/
 logs/
+
+# Google Cloud Service Account Key
+*.json
